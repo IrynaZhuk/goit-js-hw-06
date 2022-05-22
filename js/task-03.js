@@ -17,7 +17,7 @@ const images = [
 const galleryList = document.querySelector(".gallery");
 
 const listEl = images.map(image => {
-  const listImg = `<li class="gallery__item"><img src="${image.url}" alt="${image.alt}" width=320 height=150></li>`;
+  const listImg = `<li class="gallery__item"><img src="${image.url}" alt="${image.alt}" width=250 height=150></li>`;
 
   return listImg;
 });
