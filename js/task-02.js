@@ -7,8 +7,6 @@ const ingredients = [
   'Condiments',
 ];
 
-
-
 const listEl = ingredients.map(ingredient => {
   const liEl = document.createElement("li");
   
