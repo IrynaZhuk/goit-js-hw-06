@@ -5,7 +5,7 @@ inputRef.addEventListener('blur', onInputBlur);
 
 function onInputBlur(event) {
     console.log(event.currentTarget.value.length)
-    if (event.currentTarget.value.length == symbolNumber) {
+    if (event.currentTarget.value.length === symbolNumber) {
         inputRef.classList.add('valid'); 
          inputRef.classList.remove('invalid')
     } else {
